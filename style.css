@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Phudu&family=Roboto&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.main_container {
+  display: flex;
+  height: 100vh;
+}
+.side_bar {
+  width: 20%;
+  height: 100vh;
+  padding: 2rem;
+  background: #38bdf8;
+  color: #eee;
+  font-weight: 700;
+  font-size: large;
+}
+.side_bar ul {
+  list-style-type: none;
+}
+
+.first_li {
+  margin: 2.5rem 0;
+}
+.first_li ul li {
+  padding: 15px 0;
+  margin: 15px 0;
+}
+
+.second_li {
+  margin-top: 2.5rem;
+}
+
+.second_li ul li {
+  padding: 15px 0;
+  margin: 15px 0;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+.upper_nav {
+  margin-bottom: 2rem;
+}
+
+.central {
+  display: flex;
+}
+
+.central .central_card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.central_card h3 {
+  margin: 25px;
+}
+.card {
+  display: flex;
+  border: 1px solid black;
+}
+main .aside_panel {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  border: 1px solid black;
+}
+
+.trending {
+  margin: 25px 0;
+  border: 1px solid black;
+  width: 100%;
+}
